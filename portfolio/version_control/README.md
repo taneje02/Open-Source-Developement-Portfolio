@@ -40,7 +40,7 @@ This document explains the Git commands and workflow used in this project, demon
 ## Repository Setup
   # Initialize New Repository
     git init
-    git remote add origin https://github.com/yourusername/portfolio.git
+    git remote add origin https://github.com/taneje02/Open-Source-Developement-Portfolio.git
 
   # First Commit
     echo "# Portfolio Project" >> README.md
