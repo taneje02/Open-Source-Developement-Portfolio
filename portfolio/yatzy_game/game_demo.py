@@ -1,0 +1,21 @@
+# game_demo.py
+from yatzy import Yatzy
+
+y = Yatzy()
+print("Initial roll:", y.get_dice())
+print("Scoring:")
+print("Ones:", y.Ones())
+print("Twos:", y.Twos())
+print("Threes:", y.Threes())
+print("Fours:", y.Fours())
+print("Fives:", y.Fives())
+print("Sixes:", y.Sixes())
+print("One Pair:", y.OnePair())
+print("Two Pairs:", y.TwoPairs())
+print("Three Alike:", y.ThreeAlike())
+print("Four Alike:", y.FourAlike())
+print("Small Straight:", y.Small())
+print("Large Straight:", y.Large())
+print("Full House:", y.FullHourse())
+print("Chance:", y.Chance())
+print("Yatzy:", y.Yatzy())
