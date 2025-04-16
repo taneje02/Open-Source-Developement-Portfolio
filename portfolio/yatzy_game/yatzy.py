@@ -69,10 +69,8 @@ class Yatzy:
 
     def ThreeAlike(self):
         counts = self._count()
-        for num in sorted(counts, reverse=True):
-            if counts[num] >= 3:
-                return num * 3
-        return 0
+        candidates = [num * 3 for num, cnt in counts.items() if cnt >= 3]
+        return max(candidates) if candidates else 0
 
     def FourAlike(self):
         counts = self._count()
