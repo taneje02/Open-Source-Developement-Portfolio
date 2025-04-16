@@ -1,4 +1,4 @@
-# 🐛 GitHub Issues Collaboration Report (Individual Developer)
+# 🐛 GitHub Issues Collaboration Report
 
 ## 🎯 Objective
 
@@ -21,7 +21,7 @@ This report documents how I used GitHub Issues to simulate real-world collaborat
 ## 🔍 Identified Issue
 
 ### Issue #1 – Bug in `score_three_of_a_kind`
-
+- **Issue identify by: Navneet Kaur
 - **Title**: Incorrect result from `score_three_of_a_kind()` function
 - **Description**: When three matching dice are present alongside two unmatched values, the function fails to return the expected score.
 - **Labels**: `bug`, `self-review`
